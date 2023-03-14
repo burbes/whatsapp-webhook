@@ -43,7 +43,7 @@ def whatsapp_webhook(request):
 
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer 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"
+        "Authorization": "Bearer API-KEY-here"
     }
 
     resp = requests.post("https://api.openai.com/v1/completions", headers=headers, data=data)
